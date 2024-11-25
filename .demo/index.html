@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Media Toolkit</title>
+
+    <link ref="video/mp4" href="/mov_bbb.mp4" />
+  </head>
+  <body>
+    <div style="margin-bottom: 1rem">
+      <!-- <button id="thumbnail-button">Generate Thumbnail</button> -->
+      <button id="filmstrip-button-mov_bbb">
+        Generate Filmstrip
+        <a href="/mov_bbb.mp4" download="mov_bbb.mp4">mov_bbb.mp4</a>
+      </button>
+      <button id="filmstrip-button-test">
+        Generate Filmstrip <a href="/test.mp4" download="test.mp4">test.mp4</a>
+      </button>
+    </div>
+
+    <script type="module" src="src/index.ts"></script>
+  </body>
+</html>
